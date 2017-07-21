@@ -1,0 +1,123 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": -1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "backdrop1",
+			"baseLayerID": -1,
+			"baseLayerMD5": "b61b1077b0ea1931abee9dbbfa7903ff.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		},
+		{
+			"costumeName": "neon tunnel",
+			"baseLayerID": -1,
+			"baseLayerMD5": "c2bfb9dbe4fa873df7d967a8c5ffd3d9.svg",
+			"bitmapResolution": 1,
+			"rotationCenterX": 240,
+			"rotationCenterY": 180
+		}],
+	"currentCostumeIndex": 1,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": -1,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Ball",
+			"scripts": [[10,
+					10,
+					[["whenGreenFlag"],
+						["heading:", 45],
+						["doForever", [["playSound:", "water drop"], ["forward:", 15], ["bounceOffEdge"], ["playSound:", "water drop"]]]]],
+				[15,
+					352,
+					[["whenGreenFlag"],
+						["doForever",
+							[["changeGraphicEffect:by:", "color", 25], ["doIf", ["touchingColor:", 12920386], [["stopScripts", "all"]]]]]]],
+				[21, 231, [["whenGreenFlag"], ["doForever", [["forward:", 10]]]]]],
+			"sounds": [{
+					"soundName": "pop",
+					"soundID": -1,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				},
+				{
+					"soundName": "water drop",
+					"soundID": -1,
+					"md5": "aa488de9e2c871e9d4faecd246ed737a.wav",
+					"sampleCount": 8136,
+					"rate": 22050,
+					"format": "adpcm"
+				}],
+			"costumes": [{
+					"costumeName": "ball-a",
+					"baseLayerID": -1,
+					"baseLayerMD5": "10117ddaefa98d819f2b1df93805622f.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 22,
+					"rotationCenterY": 22
+				},
+				{
+					"costumeName": "ball-b",
+					"baseLayerID": -1,
+					"baseLayerMD5": "6e6330cad7750ea7e9dc88402661deb8.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 22,
+					"rotationCenterY": 22
+				},
+				{
+					"costumeName": "ball-c",
+					"baseLayerID": -1,
+					"baseLayerMD5": "bb45ed5db278f15c17c012c34a6b160f.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 22,
+					"rotationCenterY": 22
+				},
+				{
+					"costumeName": "ball-d",
+					"baseLayerID": -1,
+					"baseLayerMD5": "5d494659deae5c0de06b5885f5524276.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 22,
+					"rotationCenterY": 22
+				},
+				{
+					"costumeName": "ball-e",
+					"baseLayerID": -1,
+					"baseLayerMD5": "e80c98bc62fd32e8df81642af11ffb1a.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 22,
+					"rotationCenterY": 22
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -32.62027432303304,
+			"scratchY": 127.83286501399178,
+			"scale": 1,
+			"direction": -45,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"scriptCount": 3,
+		"userAgent": "Mozilla\/5.0 (Windows NT 5.1; rv:46.0) Gecko\/20100101 Firefox\/46.0",
+		"projectID": "108272449",
+		"videoOn": false,
+		"spriteCount": 1,
+		"hasCloudData": false,
+		"flashVersion": "WIN 17,0,0,188",
+		"swfVersion": "v446"
+	}
+}

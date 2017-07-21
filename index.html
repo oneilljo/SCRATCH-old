@@ -17,6 +17,7 @@ body, html {height: 100%; overflow: hidden;}
 }
 input[type=text] {
     width: 100%;
+    height: 40px;
     padding: 12px 20px;
     margin: 12px 0px;
     font-size: 24px;
@@ -31,23 +32,43 @@ img{
     height: auto;
 }
 </style>
-<body>
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topright w3-padding-small w3-medium">
-    <a href="/SCRATCH/">Home</a> | <a href="/SCRATCH/about/">About</a> | <a href="/SCRATCH/login/">Login</a>
-  </div>
-  <div class="w3-display-middle w3-center">
-    <img class="w3-animate-top" src="scratch.png" alt = "Title">
-    <h1 class="w3-jumbo"> </h1>
-    <h1 class="w3-medium w3-animate-bottom">Input URL of SCRATCH Project Here</h1>   
-    <input class="w3-animate-bottom w3-small" type="text" id="project" name="project"></input>
-    <h1 class="w3-tiny"> </h1>
-    <input type="button" class="w3-button w3-animate-bottom w3-round-xxlarge w3-red w3-padding-large" value="Analyze">
-  </div>
-  <div class="w3-display-bottomleft w3-padding-small w3-tiny">
+<body>
+  <script>
+  function clickAlert()
+  {
+    var submitOK = "true";
+    var url = document.getElementById("project").value;
+    var re1 = RegExp('^((http(s)?:\/\/)?scratch\.mit\.edu\/projects\/)?[0-9]+\/?$');
+
+    if (!re1.test(url)) 
+    {
+	    alert("Please Submit a Scratch Project URL or ID#"); 
+	    submitOK = "false";
+    }
+
+    if (submitOK == "false")
+    {
+        return false;
+    }
+  }
+  </script>
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-display-topright w3-padding-small w3-medium">
+      <a class="w3-text-blue" href="/SCRATCH/">Home</a> | <a href="/SCRATCH/about/">About</a> | <a href="/SCRATCH/login/">Login</a> | <a href="/SCRATCH/signup/">Sign Up</a>
+    </div>
+    <div class="w3-display-middle w3-center">
+      <img class="w3-animate-top" src="scratch.png" alt = "Title">
+      <label class="w3-animate-bottom w3-padding-small" for="project">Input URL of SCRATCH Project Here: </label>
+      <form method="post" action="loading/"> 
+        <input class="w3-animate-bottom w3-small" type="text" id="project" name="project"></input>
+        <h1 class="w3-tiny"> </h1>
+        <input type="submit" onclick="return clickAlert();" class="w3-button w3-animate-bottom w3-round-xxlarge w3-red w3-padding-large" value="Analyze"></input>
+      </form>
+    </div>
+    <div class="w3-display-bottomleft w3-padding-small w3-tiny">
     Created & Mantained by Joseph O'Neill. Website Repository can be found <a href="https://github.com/oneilljo/SCRATCH_Analysis" target="_blank">here</a>.
+    </div>
   </div>
-</div>
 </body>
 </html>

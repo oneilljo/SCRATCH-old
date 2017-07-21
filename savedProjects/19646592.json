@@ -1,0 +1,170 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": -1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "backdrop1",
+			"baseLayerID": -1,
+			"baseLayerMD5": "aaff83c33df257abee3c28cb7a73cb00.svg",
+			"bitmapResolution": 1,
+			"rotationCenterX": 240,
+			"rotationCenterY": 180
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": -1,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Platform1",
+			"sounds": [{
+					"soundName": "meow",
+					"soundID": -1,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": -1,
+					"baseLayerMD5": "b8be09c53e8bf99f1c2be1566478a16d.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 240,
+					"rotationCenterY": 180
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -100,
+			"scratchY": -100,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Platform3",
+			"sounds": [{
+					"soundName": "meow",
+					"soundID": -1,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": -1,
+					"baseLayerMD5": "b8be09c53e8bf99f1c2be1566478a16d.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 240,
+					"rotationCenterY": 180
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 150,
+			"scratchY": 0,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 3,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Platform2",
+			"sounds": [{
+					"soundName": "meow",
+					"soundID": -1,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": -1,
+					"baseLayerMD5": "b8be09c53e8bf99f1c2be1566478a16d.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 240,
+					"rotationCenterY": 180
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 25,
+			"scratchY": -50,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 2,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Monkey2",
+			"sounds": [{
+					"soundName": "chee chee",
+					"soundID": 0,
+					"md5": "25f4826cdd61e0a1c623ec2324c16ca0.wav",
+					"sampleCount": 34560,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "monkey2-a",
+					"baseLayerID": 0,
+					"baseLayerMD5": "6e4de762dbd52cd2b6356694a9668211.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 68,
+					"rotationCenterY": 99
+				},
+				{
+					"costumeName": "monkey2-b",
+					"baseLayerID": 1,
+					"baseLayerMD5": "7662a3a0f4c6fa21fdf2de33bd80fe5f.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 68,
+					"rotationCenterY": 99
+				},
+				{
+					"costumeName": "monkey2-c",
+					"baseLayerID": 2,
+					"baseLayerMD5": "db8eb50b948047181922310bb94511fb.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 68,
+					"rotationCenterY": 99
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 35,
+			"scratchY": -31,
+			"scale": 0.75,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 4,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"scriptCount": 0,
+		"hasCloudData": false,
+		"projectID": "19646592",
+		"flashVersion": "MAC 18,0,0,232",
+		"swfVersion": "v439.2",
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/44.0.2403.157 Safari\/537.36",
+		"videoOn": false,
+		"spriteCount": 4
+	}
+}

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+proj=$1; mkdir sb2tmp; cd sb2tmp; wget -O - http://projects.scratch.mit.edu/internalapi/project/$proj/get/ 2> /dev/null | tee project.json | grep -i MD5 | cut -d' ' -f2 | sed 's/[\",]//g' | while read file; do wget -O $file http://scratch.mit.edu/internalapi/asset/$file/get 2> /dev/null; done; i=1; while [ $i -le `expr $( ls -1 | wc -l ) - 2` ]; do sed -i "{s/ID\": -1/ID\": $i/;t end;b;:end;n;b end}" project.json; i=`expr $i + 1`; done; i=0; ( grep penLayerMD5 project.json; grep '\(baseLayerMD5\|md5\)' project.json ) | cut -d' ' -f2 | sed 's/[",]//g' | while read file; do ext=`echo $file | cut -d. -f2`; mv $file $i.$ext; i=`expr $i + 1`; done; zip $proj.sb2 *; mv *.sb2 ..; cd ..; rm -r sb2tmp

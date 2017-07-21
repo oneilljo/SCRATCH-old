@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>SCRATCH Thesis Project</title>
+<title>About</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../format.css">
@@ -8,8 +8,9 @@
 <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 <link rel="icon" href="../favicon.ico" type="image/x-icon">
 <style>
-body, h1 {font-family: "Raleway", sans-serif}
+body, h1 {font-family: "Raleway", sans-serif;}
 body, html {height: 100%; overflow: hidden;}
+h1 {width: 100%}
 .bgimg {
     background-image: url('../blackboard.jpg');
     min-height: 100%;
@@ -17,6 +18,7 @@ body, html {height: 100%; overflow: hidden;}
 }
 input[type=text] {
     width: 100%;
+    height: 40px;
     padding: 12px 20px;
     margin: 12px 0px;
     font-size: 24px;
@@ -35,12 +37,23 @@ img{
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
   <div class="w3-display-topright w3-padding-small w3-medium">
-    <a href="/SCRATCH/">Home</a> | <a href="/SCRATCH/about/">About</a> | <a href="/SCRATCH/login/">Login</a>
+    <a href="/SCRATCH/">Home</a> | <a class="w3-text-blue" href="/SCRATCH/about/">About</a> | <a href="/SCRATCH/login/">Login</a> | <a href="/SCRATCH/signup/">Sign Up</a>
   </div>
   <div class="w3-display-middle w3-center">
     <img class="w3-animate-top" src="../scratch.png" alt = "Title">
     <h1 class="w3-jumbo"> </h1>
-    <h1 class="w3-medium w3-animate-bottom">This is where I will put an about me page. Does this start a new line? How about this?</h1>   
+    <h1 class="w3-medium w3-animate-bottom" align="left">&nbsp &nbsp This Scratch Project 
+      Analyzer was created and intended to be used by Educators and Students alike 
+      to help them better understand and utilize the principles of Computer Science 
+      through SCRATCH. Created by Joseph O'Neill at Appalachian State University, this
+      website is part of his Master's Thesis. To find and install this website on
+      a seperate webserver, simply follow the link at the bottom of the
+      page.</h1>
+    <h1 class="w3-medium w3-animate-bottom" align="left">&nbsp &nbsp To use
+      this service, simply go to the <a class="w3-text-blue" href="../index.html">Home</a>
+      page and input a SCRATCH project URL (Ex: https://scratch.mit.edu/projects/160539421/) 
+      or project number (Ex: 160539421). Once submitted, your results will be
+      presented in a new webpage.</h1>   
   </div>
   <div class="w3-display-bottomleft w3-padding-small w3-tiny">
     Created & Mantained by Joseph O'Neill. Website Repository can be found <a href="https://github.com/oneilljo/SCRATCH_Analysis" target="_blank">here</a>.

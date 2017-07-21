@@ -1,0 +1,166 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "car passing",
+			"soundID": -1,
+			"md5": "c21a5ad00b40b5ce923e56c905c94a9f.wav",
+			"sampleCount": 84992,
+			"rate": 11025,
+			"format": ""
+		},
+		{
+			"soundName": "motorcycle passing",
+			"soundID": -1,
+			"md5": "b49ab3a926da46578396d1faffd24d3b.wav",
+			"sampleCount": 86016,
+			"rate": 11025,
+			"format": ""
+		},
+		{
+			"soundName": "gong",
+			"soundID": -1,
+			"md5": "9d30c38443691e9626d510546d98327c.wav",
+			"sampleCount": 114432,
+			"rate": 11025,
+			"format": ""
+		},
+		{
+			"soundName": "horse gallop",
+			"soundID": -1,
+			"md5": "058a34b5fb8b57178b5322d994b6b8c8.wav",
+			"sampleCount": 38336,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "Track1",
+			"baseLayerID": -1,
+			"baseLayerMD5": "0d65190962eb612c3956a7b4b61bf522.svg",
+			"bitmapResolution": 1,
+			"rotationCenterX": 240,
+			"rotationCenterY": 180
+		},
+		{
+			"costumeName": "Track2",
+			"baseLayerID": -1,
+			"baseLayerMD5": "d1c9833667748143be9ad8804f479f85.svg",
+			"bitmapResolution": 1,
+			"rotationCenterX": 240,
+			"rotationCenterY": 180
+		},
+		{
+			"costumeName": "Track3",
+			"baseLayerID": -1,
+			"baseLayerMD5": "7b6d5e58fcba0b18f47b865004bc4ce4.svg",
+			"bitmapResolution": 1,
+			"rotationCenterX": 240,
+			"rotationCenterY": 180
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": -1,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Player 2",
+			"sounds": [{
+					"soundName": "meow",
+					"soundID": -1,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "dinosaur",
+					"baseLayerID": -1,
+					"baseLayerMD5": "ed46ee11478715f7596d01fb0f98aa3f.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 86,
+					"rotationCenterY": 88
+				},
+				{
+					"costumeName": "butterfly",
+					"baseLayerID": -1,
+					"baseLayerMD5": "55dd0671a359d7c35f7b78f4176660e8.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 75,
+					"rotationCenterY": 75
+				},
+				{
+					"costumeName": "Car",
+					"baseLayerID": -1,
+					"baseLayerMD5": "4e3341c8f6ef0d5988dd97c17b1296d3.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 206,
+					"rotationCenterY": 160
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 10,
+			"scratchY": 118,
+			"scale": 0.25000000000000017,
+			"direction": 105,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 2,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Player 1",
+			"sounds": [{
+					"soundName": "meow",
+					"soundID": -1,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "elephant",
+					"baseLayerID": -1,
+					"baseLayerMD5": "6c3e28fd8bd8cc6ea00502c58f7c2e72.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 83,
+					"rotationCenterY": 54
+				},
+				{
+					"costumeName": "unicorn",
+					"baseLayerID": -1,
+					"baseLayerMD5": "1f51225d3ada388ff5ab6da872005e97.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 77,
+					"rotationCenterY": 58
+				},
+				{
+					"costumeName": "Car",
+					"baseLayerID": -1,
+					"baseLayerMD5": "0997565ef1d4b4b50c60b2e9c339f33a.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 148,
+					"rotationCenterY": 101
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 10,
+			"scratchY": 153,
+			"scale": 0.25000000000000017,
+			"direction": 89,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"scriptCount": 0,
+		"videoOn": false,
+		"hasCloudData": false,
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.125 Safari\/537.36",
+		"swfVersion": "v422",
+		"projectID": "20619111",
+		"spriteCount": 2,
+		"flashVersion": "MAC 14,0,0,145"
+	}
+}
